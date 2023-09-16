@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+    <body >
+        <header>
+            <h1 >Welcome to My Portfolio</h1>
+            <div>
+            <div>
+                <a href="#about"><button class="button">About</button></a>
+                <a href="#skills"><button class="button">Skills</button></a>
+                <a href="#projects"><button class="button">Projects</button></a>
+                <a href="#contact"><button class="button">Contact</button></a>
+            </div>
+            </div>
+        </header>
+        <main>
+            <section id="about">
+                <div>
+
+                    <h1>Swaroop VITB</h1>
+                    <img src="myImg.jpg" alt="A photo of me">
+                    
+                </div>
+                <div>
+
+                    <p>I am a passionate web developer with a focus on front-end technologies.</p>
+                    
+                    <p>I am currently Pursuing my B. Tech in <em>Vishnu Institute of Technology</em> Bhimavaram.</p>
+                    <p>I have learnt Web Development from <br>Code With Swaroop.</p>
+                    <p>You can <strong>Click here</strong> to Checkout What I have learnt in HTML CSS JS.</p>
+                </div>
+                <hr>
+                            
+            </section>
+            <section id="skills" style="flex-direction: row; justify-content: space-evenly; flex-wrap: wrap;">
+                <div>
+                    <h1>My Skills</h1>
+                    <ol style="text-align: left; font-size: 20px;">
+                        <li>Python Basics</li>
+                        <li>HTML Basics</li>
+                        <li>CSS Basics</li>
+                        <li>JavaScript Basics</li>
+                    </ol>
+                </div>
+                
+            </section>
+            <section id="projects">
+
+                <h1>My Projects</h1>
+                <table border="1">
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td> I have built a Portfolio website by using HTML, CSS & JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Python Simple Calculator</td>
+                        <td>I have built a simple calculator in the course by Code With Swaroop</td>
+                    </tr>
+                </table>
+                
+            </section>
+            <section id="contact">
+                <h1>Contact Me</h2>
+                <p>Feel free to get in touch with me using the form below:</p>
+                
+                <form action="" method="">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <b>Choose your gender:</b>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" style="font-weight: 100;">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" style="font-weight: 100;">Female</label>
+                    </div>
+                    <div>
+                        <b>Select your interests:</b>
+                        
+                        <input type="checkbox" id="coding" name="interest" value="coding">
+                        <label for="coding" style="font-weight: 100;">Coding</label>
+                        <input type="checkbox" id="reading" name="interest" value="reading">
+                        <label for="reading" style="font-weight: 100;">Reading</label>
+                    </div>
+                    <div>
+                        <label for="bio">Bio (up to 200 characters):</label>
+                        <input type="text">
+                        
+                    </div>   
+                     <button type="submit">Submit</button>
+                    </form>
+                        
+            </section>
+            </main>
+            <div style="position: fixed; bottom: -4px; right: 10px;">
+                <a href="#">
+
+                <button style="background-color: #2196F3; color: white; height: 70px;
+                width: 70px;  
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 50%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                text-align: center;
+                cursor: pointer;">TOP</button> </a>
+            </div>
+            <footer>
+                <p>&copy; 2023 My Portfolio</p>
+                <div class="social-media">
+                  <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <!-- Add more social media links as needed -->
+                </div>
+            </footer>
+              
+    </body>
+
+</html>
